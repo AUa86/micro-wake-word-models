@@ -7,7 +7,7 @@
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
-    "probability_cutoff": 0.35,
+    "probability_cutoff": 0.1,
     "tensor_arena_size": 16772,
     "feature_step_size": 10,
     "sliding_window_size": 7,
