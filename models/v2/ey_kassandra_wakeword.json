@@ -1,0 +1,18 @@
+{
+  "type": "micro",
+  "wake_word": "Ey, Kassandra!",
+  "author": "master phooey",
+  "website": "https://github.com/MasterPhooey/MicroWakeWord-Trainer-Docker",
+  "model": "ey_kassandra_wakeword.tflite",
+  "trained_languages": [
+    "ru"
+  ],
+  "version": 2,
+  "micro": {
+    "probability_cutoff": 0.85,
+    "sliding_window_size": 3,
+    "feature_step_size": 10,
+    "tensor_arena_size": 15000,
+    "minimum_esphome_version": "2025.8.0"
+  }
+}
